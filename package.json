@@ -2,7 +2,7 @@
   "name": "react-clase-uno",
   "version": "1.0.0",
   "description": "",
-  "main": "index.js",
+  "main": "index-mio.html",
   "scripts": {
     "compiler": "babel --watch src --out-dir lib --presets @babel/preset-react",
     "server": "http-server -c-1"
@@ -10,11 +10,15 @@
   "author": "",
   "license": "ISC",
   "dependencies": {
-    "@babel/cli": "^7.14.0",
-    "@babel/core": "^7.14.0",
-    "@babel/preset-react": "^7.13.13",
-    "http-server": "^0.12.1",
-    "react": "^16.12.0",
-    "react-dom": "^16.12.0"
+    "@babel/cli": "^7.21.0",
+    "@babel/core": "^7.21.0",
+    "@babel/preset-react": "^7.18.6",
+    "http-server": "^14.1.1",
+    "ncu": "^0.2.1",
+    "react": "^18.2.0",
+    "react-dom": "^18.2.0"
+  },
+  "devDependencies": {
+    "npm-check-updates": "^16.7.12"
   }
 }
